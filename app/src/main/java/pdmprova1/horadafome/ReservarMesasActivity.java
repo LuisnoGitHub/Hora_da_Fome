@@ -1,4 +1,4 @@
-package pdmprova1.app;
+package pdmprova1.horadafome;
 
 import android.content.SharedPreferences;
 import android.os.Build;
@@ -12,7 +12,6 @@ import android.widget.Toast;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
-import androidx.core.view.ViewCompat;
 
 public class ReservarMesasActivity extends AppCompatActivity {
 

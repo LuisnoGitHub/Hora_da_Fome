@@ -1,4 +1,4 @@
-package pdmprova1.app;
+package pdmprova1.horadafome;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -35,13 +35,13 @@ public class MainActivity extends AppCompatActivity {
                     EditSenha.setError("Preencha o campo!");
                 } else {
                     if (EditUsuario.getText().toString().trim().equals("Administrador") && EditSenha.getText().toString().trim().equals("Administrador")) {
-                        startActivity(new Intent(MainActivity.this, ReservarMesasActivity.class));
+                        startActivity(new Intent(MainActivity.this, ViewActivity.class));
                     } else if (EditUsuario.getText().toString().trim().equals("Adm") && EditSenha.getText().toString().trim().equals("Adm123")) {
-                        startActivity(new Intent(MainActivity.this, ReservarMesasActivity.class));
+                        startActivity(new Intent(MainActivity.this, ViewActivity.class));
                     } else if (EditUsuario.getText().toString().trim().equals("Administrator") && EditSenha.getText().toString().trim().equals("Que3B1eng4ElT0r0")) {
-                        startActivity(new Intent(MainActivity.this, ReservarMesasActivity.class));
+                        startActivity(new Intent(MainActivity.this, ViewActivity.class));
                     } else if (EditUsuario.getText().toString().trim().equals("Root") && EditSenha.getText().toString().trim().equals("pr0m1uscu0")) {
-                        startActivity(new Intent(MainActivity.this, ReservarMesasActivity.class));
+                        startActivity(new Intent(MainActivity.this, ViewActivity.class));
                     } else {
                         Toast.makeText(MainActivity.this, "Usuário e/ou Senha incorreto!", Toast.LENGTH_LONG ).show();
                     }

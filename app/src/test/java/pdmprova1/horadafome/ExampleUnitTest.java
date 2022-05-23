@@ -1,4 +1,4 @@
-package pdmprova1.app;
+package pdmprova1.horadafome;
 
 import org.junit.Test;
 
